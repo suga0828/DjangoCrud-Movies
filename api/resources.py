@@ -5,5 +5,5 @@ from tastypie.authorization import Authorization
 class MovieResource(ModelResource):
     class Meta:
         queryset = Movie.objects.all()
-        resource_name = 'movie'
+        resource_name = 'movies'
         authorization = Authorization()
